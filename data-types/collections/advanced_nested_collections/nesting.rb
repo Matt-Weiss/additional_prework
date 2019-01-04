@@ -1,4 +1,4 @@
-def stores 
+def stores
   {
     olive_garden: {
       employees: ['Jeff', 'Zach', 'Samantha'],
@@ -7,6 +7,7 @@ def stores
                               'Cheese',
                               'Butter'],
                 price: 12},
+                
                 {name: 'Steak',
                 ingredients: ['Beef',
                               'Garlic'],
@@ -42,5 +43,5 @@ def stores
                 price: 2}
               ]
             }
-  } 
+  }
 end
