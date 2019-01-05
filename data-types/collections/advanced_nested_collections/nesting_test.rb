@@ -106,9 +106,11 @@ class NestedTest < MiniTest::Test
   end
 
   def test_full_menu_for_olive_garden
-skip
+
     #=======================
-    olive_garden_menu = stores[:olive_garden][:dishes]
+    ogdishes = stores[:olive_garden][:dishes].map {|key| key[:name]}
+    ogdishdet = stores[:olive_garden][:dishes]
+    olive_garden_menu = Hash[ogdishes.zip(ogdishdet)]
 
     #=======================
     expected = ({"Risotto"=>{:name=>"Risotto", :ingredients=>["Rice", "Cheese", "Butter"], :price=>12},
@@ -117,9 +119,11 @@ skip
   end
 
   def test_menu_accross_all_restaurants
-     skip
+
     #=======================
-    #  full_menu = <your code here>
+    dishes = stores.map {|key, value| value[:dishes].map {|key| key[:name]}}.flatten
+    dishdet = stores.map {|key, value| value[:dishes]}.flatten
+     full_menu = Hash[dishes.zip(dishdet)]
     #=======================
     expected = ({"Risotto"=>
                       {:name=>"Risotto", :ingredients=>["Rice", "Cheese", "Butter"], :price=>12},
