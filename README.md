@@ -19,37 +19,38 @@ Here is a very rough suggested timeline for working on the exercises. This is ju
 
 * Week 1
   * data-types
-    * collections/arrays
-    * ints_and_floats
-    * strings
+    * ~~collections/arrays~~
+    * ~~ints_and_floats~~
+    * ~~strings~~
   * initialize
-    * aardvark
-    * beaver
-    * cat
-    * dog
-    * eel
-    * ferret
-    * groundhog
-    * horse
+    * ~~aardvark~~
+    * ~~beaver~~
+    * ~~cat~~
+    * ~~dog~~
+    * ~~eel~~
+    * ~~ferret~~
+    * ~~groundhog~~
+    * ~~horse~~
   * mythical-creatures
-    * Unicorn
-    * Vampire
-    * Dragon
+    * ~~Unicorn~~
+    * ~~Vampire~~
+    * ~~Dragon~~
 
 * Week 2
-  * data-types/collections/hashes.rb
+  * ~~data-types/collections/hashes.rb~~
   * objects-and-methods/exercise-1
   * mythical-creatures
-    * Hobbit
-    * Pirate
-    * Wizard
+    * ~~Hobbit~~
+    * ~~Pirate~~
+    * ~~Wizard~~
   * command-query
     * leather_chair_test.rb
     * baby_test.rb
     * beers_test.rb
 
 * Week 3
-  * datatypes/collections/nested_collections.rb
+  * ~~datatypes/collections/nested_collections.rb~~
+  * ~~collections/advanced_nested_collections/nesting_test.rb~~
   * object-and-methods/exercise-2
   * mythical-creatures
     * Medusa
