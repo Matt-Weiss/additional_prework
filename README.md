@@ -44,9 +44,9 @@ Here is a very rough suggested timeline for working on the exercises. This is ju
     * ~~Pirate~~
     * ~~Wizard~~
   * command-query
-    * leather_chair_test.rb
-    * baby_test.rb
-    * beers_test.rb
+    * ~~leather_chair_test.rb~~
+    * ~~baby_test.rb~~
+    * ~~beers_test.rb~~
 
 * Week 3
   * ~~datatypes/collections/nested_collections.rb~~
@@ -63,7 +63,8 @@ Here is a very rough suggested timeline for working on the exercises. This is ju
     * wallet_test.rb
 
 * Week 4+
-	* Enumerables
+	* ~~Enumerables~~
 	* Iteration
 	* Command and Query
 	* Complete/Redo Mythical Creatures
+  * ~~Debugging~~
