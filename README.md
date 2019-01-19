@@ -53,7 +53,7 @@ Here is a very rough suggested timeline for working on the exercises. This is ju
   * ~~collections/advanced_nested_collections/nesting_test.rb~~
   * object-and-methods/exercise-2
   * mythical-creatures
-    * Medusa
+    * ~~Medusa~~
     * Werewolf
     * Centaur
     * Ogre
